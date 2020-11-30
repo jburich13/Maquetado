@@ -1,11 +1,5 @@
 /* QA */
 
-
-/* LUGARES */
-
-
-/* Destinos */
-
 html {
     font-size: 62.5%;
 }
@@ -79,7 +73,6 @@ ol li:hover a {
 /* FOOTER */
 
 footer {
-    margin-top: 2rem;
     background-color: #98C1D9;
 }
 
@@ -228,6 +221,7 @@ footer p {
 
 .tarjeta {
     margin: 2rem;
+    margin-bottom: 5rem;
     transition: 0.5s;
     font-family: 'Roboto Slab', serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -259,6 +253,9 @@ footer p {
     display: block;
     text-align: center;
 }
+
+
+/* DESTINOS */
 
 .destinos__Subtitulo {
     font-family: 'Roboto Slab', serif;
@@ -334,6 +331,26 @@ footer p {
 }
 
 
+/*CONTACTO*/
+
+form label {
+    font-size: 2rem;
+}
+
+#form {
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+}
+
+#input_Forms {
+    margin-top: 2rem;
+}
+
+#btn-form {
+    background-color: #98C1D9;
+}
+
+
 /*QA*/
 
 .container_Preguntas {
@@ -375,24 +392,7 @@ footer p {
 }
 
 
-/*CONTACTO*/
-
-form label {
-    font-size: 2rem;
-}
-
-#form {
-    margin-top: 8rem;
-    margin-left: 1.5rem;
-}
-
-#input_Forms {
-    margin-top: 2rem;
-}
-
-#btn-form {
-    background-color: #98C1D9;
-}
+/*RESPONSIVE*/
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #columna {
