@@ -561,12 +561,12 @@ form label {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .bike {
+    /* .bike {
         display: none;
     }
     .car {
         display: none;
-    }
+    } */
     #columna {
         display: none;
     }
