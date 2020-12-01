@@ -352,6 +352,24 @@ textarea.input100 {
     }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wrap-contact100 {
+        padding: 72px 15px 65px 15px;
+    }
+    .container-contact100 {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 991.98px) {
+    .wrap-contact100 {
+        padding: 72px 15px 65px 15px;
+    }
+    .container-contact100 {
+        margin-top: 3rem;
+    }
+}
+
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
